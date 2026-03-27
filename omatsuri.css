@@ -61,3 +61,26 @@
             background-color: rgba(red, green, blue, alpha);
         
         }
+        #linksFooter{
+            padding-top: 32px;
+        }
+        #linksFooter a{
+            padding-top: 32px;
+            padding-bottom: 8px;
+            border-bottom: 3px solid var(--subcor);
+        }
+        .links{
+            text-align: center;
+        }
+        .links a{
+            color: white;
+            font-size: 20px;
+            line-height: 30px;
+            margin: 0 16px;
+            text-decoration: none;
+        }
+        .links a:hover{
+            color: var(--subcor);
+            transition: 600ms;
+            font-size: 23px;
+        }
